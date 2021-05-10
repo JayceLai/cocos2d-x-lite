@@ -50,6 +50,7 @@ public:
     virtual void setMass(float v) = 0;
     virtual void setLinearDamping(float v) = 0;
     virtual void setAngularDamping(float v) = 0;
+    virtual void useCCD(bool v) = 0;
     virtual void useGravity(bool v) = 0;
     virtual void setLinearFactor(float x, float y, float z) = 0;
     virtual void setAngularFactor(float x, float y, float z) = 0;
