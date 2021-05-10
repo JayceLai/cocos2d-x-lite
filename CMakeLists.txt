@@ -1,5 +1,4 @@
 
-
 set(CC_PLATFORM_MAC_IOS 1)
 set(CC_PLATFORM_WINDOWS 2)
 set(CC_PLATFORM_ANDROID 3)
@@ -144,7 +143,7 @@ set_if_undefined(USE_SPINE                ON)
 set_if_undefined(USE_WEBSOCKET_SERVER     OFF)
 set_if_undefined(USE_JOB_SYSTEM_TASKFLOW  OFF)
 set_if_undefined(USE_JOB_SYSTEM_TBB       OFF)
-set_if_undefined(USE_PHYSICS_PHYSX        OFF)
+set_if_undefined(USE_PHYSICS_PHYSX        ON)
 
 if(ANDROID OR WINDOWS)
     set_if_undefined(CC_USE_GLES3 ON)
